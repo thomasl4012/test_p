@@ -1,0 +1,48 @@
+.container {
+  margin: 10% auto;
+  text-align: left;
+  padding: 24px;
+  border-radius: 20px;
+  max-width: 664px;
+  height: 335px;
+  background-color: #42b491;
+ 
+    background-image: url("https://res.cloudinary.com/pretto-fr/image/upload/c_scale,w_480,q_auto/v1553003467/website/guide/ebook_cover.webp"), 
+    url("https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571419/ebook/decorations/corner-top-left.svg"), 
+    url("https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571427/ebook/decorations/corner-bottom-right.svg"),
+    url("https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571434/ebook/decorations/zigzag1.svg"),
+    url("https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571440/ebook/decorations/zigzag2.svg"),
+    url("https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571447/ebook/decorations/zigzag3.svg"),
+    url("https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571447/ebook/decorations/zigzag3.svg");
+
+    background-position-y: bottom, top, bottom, 80%, 30%, 10%, bottom;
+    background-position-x: 90%, left, right, left, 60%, 65%,95%;
+    background-repeat: no-repeat;
+    background-size: auto 216px, auto, 380px 200px, auto, auto, auto,auto;
+    
+
+
+}
+
+.container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 16px;
+  max-width: 325px;
+}
+
+
+@media screen and (max-width: 644px) {
+  .container {
+    width: 90%;
+    height: 580px;
+    background-position-x: center, left, right, left, 60%, 65%,95%;
+    text-align: center;
+  }
+
+  .container h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
